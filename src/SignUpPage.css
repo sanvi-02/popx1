@@ -1,0 +1,93 @@
+/* body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #282c34);
+  color: #ffffff;
+} */
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #282c34);
+}
+
+.signup-form {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 30px 40px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  color: #e0e0e0;
+}
+.signup-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #dcdcff;
+}
+
+input::placeholder {
+  color: #a093c9; /* muted placeholder */
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+input::placeholder {
+  color: #bbbbbb;
+}
+
+input:focus {
+  border: 1px solid #7b61ff;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.agency-section {
+  margin-top: 20px;
+}
+
+.agency-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #cccccc;
+}
+
+.required {
+  color: #ff6b6b;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-group label {
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.create-button {
+  margin-top: 30px;
+  padding: 14px;
+  width: 100%;
+  background-color: #7b61ff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+  background-color: #5c47d3;
+}

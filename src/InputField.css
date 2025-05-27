@@ -1,0 +1,37 @@
+.input-field-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  
+}
+
+.input-label {
+  font-size: 100px;
+  margin-bottom: 6px;
+  color: #6c47ff;
+  font-weight: bold;
+  
+}
+
+.required {
+  color: red;
+  margin-left: 2px;
+}
+
+.input-field {
+  padding: 50px 16px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #1c1c1c !important;
+  height: 30px; 
+  
+}
+.input-field:focus,
+.input-field:hover {
+  transform: scale(1.1);
+  border-color:#7b61ff ;
+  /* border-color: linear-gradient(90deg,#7b61ff, #61a0ff); */
+  background-color: #DAD2FF!important;
+
+}
